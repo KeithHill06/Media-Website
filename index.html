@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="port_home.css" />
+</head>
+<body>
+  <main class="page-container">
+    <header class="hero">
+      <h1>My Portfolio</h1>
+      <p>Color grading, visual work, and more</p>
+    </header>
+
+    <nav class="tab-container">
+      <button class="tab-button active" data-tab="portfolio">Portfolio</button>
+      <button class="tab-button" data-tab="about">About Me</button>
+    </nav>
+
+    <section id="portfolio" class="tab-content active">
+      <h2>Portfolio</h2>
+      <p class="section-intro">
+        Here's a bunch of LOG footage I've found floating around the internet and thrown a little bit of style onto!
+      </p>
+
+      <div class="video-grid">
+        <article class="video-card">
+          <video controls>
+            <source src="Completed/River.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+        </article>
+
+        <article class="video-card">
+          <video controls>
+            <source src="Completed/Farm.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+        </article>
+
+        <article class="video-card">
+          <video controls>
+            <source src="Completed/Boat.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+        </article>
+
+        <div class="bonus-section">
+            <p class="bonus-text">...plus a fun little clip of me</p>
+
+            <div class="video-card bonus-video">
+                <video controls>
+                <source src="Completed/Eye_Roll.mp4" type="video/mp4" />
+                Your browser does not support the video tag.
+                </video>
+            </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="tab-content">
+      <h2>About Me</h2>
+      <div class="about-card">
+        <p>
+          Hi, I’m Keith Hill, a colorist and editor with a passion for visual storytelling. Thank you for stopping by! I've used DaVinci Resolve extensively from grading to editing to motion graphics. The seamless workflows make it my program of choice.
+          This portfolio showcases some of the footage I’ve worked on!
+        </p>
+
+        <p>
+          If you like what you see or just want to say “hi,” feel free to reach out! 
+        </p>
+        <p>
+            contact@keithhillmedia.com 
+        </p>
+        <p>
+            (240) 704-0766
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <script src="port_home.js"></script>
+</body>
+</html>
