@@ -122,3 +122,10 @@ body {
 .about-card p:last-child {
   margin-bottom: 0;
 }
+.video-card iframe {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  border: none;
+  border-radius: 8px;
+  display: block;
+}
