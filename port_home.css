@@ -83,7 +83,7 @@ body {
 
 .video-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
   gap: 24px;
 }
 
@@ -102,14 +102,12 @@ body {
   box-shadow: 0 8px 18px rgba(0, 0, 0, 0.12);
 }
 
-.video-card video {
+.video-card iframe {
   width: 100%;
+  aspect-ratio: 16 / 9;
+  border: none;
   border-radius: 8px;
-  margin-bottom: 12px;
-}
-
-.video-card h3 {
-  margin-bottom: 8px;
+  display: block;
 }
 
 .video-card p,
@@ -121,11 +119,4 @@ body {
 
 .about-card p:last-child {
   margin-bottom: 0;
-}
-.video-card iframe {
-  width: 100%;
-  aspect-ratio: 16 / 9;
-  border: none;
-  border-radius: 8px;
-  display: block;
 }
